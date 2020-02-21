@@ -6054,32 +6054,5 @@ Citizen.CreateThread(function()
     end
 end)
 
-Citizen.CreateThread(function()
-    while true do
-        Wait(0)
-        for i=1, #saved, 1 do
-            DrawText2d(saved[1], 0.9,0.02,0.5)
-            DrawText2d(saved[2], 0.9,0.06,0.5)
-            DrawText2d(saved[3], 0.9,0.10,0.5)
-            DrawText2d(saved[4], 0.9,0.14,0.5)
-            DrawText2d(saved[5], 0.9,0.18,0.5)
-            DrawText2d(saved[6], 0.9,0.22,0.5)
-            DrawText2d(saved[7], 0.9,0.26,0.5)
-            DrawText2d(saved[8], 0.9,0.30,0.5)
-            DrawText2d(saved[9], 0.9,0.34,0.5)
-            DrawText2d(saved[10], 0.9,0.38,0.5)
-            DrawText2d(saved[11], 0.9,0.42,0.5)
-            DrawText2d(saved[12], 0.9,0.46,0.5)
-            DrawText2d(saved[13], 0.9,0.50,0.5)
-            DrawText2d(saved[14], 0.9,0.54,0.5)
-            DrawText2d(saved[15], 0.9,0.58,0.5)
-            DrawText2d(saved[16], 0.9,0.62,0.5)
-            DrawText2d(saved[17], 0.9,0.66,0.5)
-            DrawText2d(saved[18], 0.9,0.70,0.5)
-            DrawText2d(saved[19], 0.9,0.74,0.5)
-            DrawText2d(saved[20], 0.9,0.78,0.5)
-            DrawText2d(saved[21], 0.9,0.82,0.5)
-        end 
-    end
-end)
+
 
