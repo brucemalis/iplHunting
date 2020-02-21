@@ -5968,7 +5968,7 @@ local ipls = {
     -444077777,
     -73017470,
 }
-local count = 1231
+local count = 0
 local current 
 local temp
 local isValid, position, heading
